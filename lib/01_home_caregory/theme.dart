@@ -12,3 +12,9 @@ TextStyle get headingStyle {
     textStyle: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
   ));
 }
+
+TextStyle get titleStyle {
+  return (GoogleFonts.lato(
+    textStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+  ));
+}

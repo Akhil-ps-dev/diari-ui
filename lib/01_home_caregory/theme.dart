@@ -18,3 +18,10 @@ TextStyle get titleStyle {
     textStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
   ));
 }
+
+//!add_task_bar (title)
+TextStyle get subTitleStyle {
+  return (GoogleFonts.lato(
+    textStyle: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
+  ));
+}
